@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,128,128,1) 0%, rgba(29,253,205,1) 50%, rgba(69,174,252,1) 100%);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+}
+
+.title {
+
+    font-family: 'Sora', sans-serif;
+    margin-top: 100px;
+    color: white;
+    font-size: 36px;
+    
+}
+.form-box {
+    width: 700px;
+    height: 325px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    
+
+}
+
+.form {
+    margin-top: 150px;
+}
+.form-control {
+    width: 600px;
+    margin-bottom: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid teal;
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    
+}
+
+.form-control::placeholder {
+    color: teal;
+}
+
+input {
+    height: 45px;
+    color: teal;
+}
+textarea {
+    color: teal;
+}
+
+form .submit {
+    background-color: teal;
+    color: white;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Sora', sans-serif;
+
+}
+
+form .submit:hover {
+    color: teal;
+    background-color: white;
+    font-weight: bold;
+}
