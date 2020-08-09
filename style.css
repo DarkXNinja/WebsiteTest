@@ -211,6 +211,7 @@ nav {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 24px;
+    text-align: center;
 }
 
 .ylp {
@@ -236,14 +237,29 @@ nav {
     text-indent: 1em;
 
 }
+.excerpt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 .box {
     background-color: teal;
     height: 375px;
     width: 600px;
-    margin-right: 420px;
-    margin-left: 420px;
     border-radius: 30px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-    
+
+p, h1 {
+    text-align: center;
+}
+
