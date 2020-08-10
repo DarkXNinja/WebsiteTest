@@ -39,35 +39,35 @@
     }
 
     20.01% {
-        background-image: url("warrior.jpg");
+        background-image: url("silapathigaram.jpg");
         
     }
     40% {
-        background-image: url("warrior.jpg");
+        background-image: url("silapathigaram.jpg");
 
     }
     40.01% {
-        background-image: url("bharatam.jpg");
+        background-image: url("kolam.jpg");
 
     }
     60% {
-        background-image: url("bharatam.jpg");
+        background-image: url("kolam.jpg");
 
     }
     60.01% {
-        background-image: url("india.jpg");
+        background-image: url("jallikattu.jpg");
 
     }
     80% {
-        background-image: url("india.jpg");
+        background-image: url("jallikattu.jpg");
 
     }
     80.01% {
-        background-image: url("dance.jpg");
+        background-image: url("kabaddi.jpg");
         
     }
     100% {
-        background-image: url("dance.jpg");
+        background-image: url("kabaddi.jpg");
 
     }
 }
