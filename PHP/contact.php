@@ -11,7 +11,7 @@ if (isset($_POST['submit '])) {
     $txt = "New Form Submission from ".$name.".\n\n".$message;
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: contactform.php?mailsend");
+    header("Location: index.php?mailsend");
 
 
 
